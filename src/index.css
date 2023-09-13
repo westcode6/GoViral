@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+/* Big Caslon Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+
+body {
+  /* background-image: url("./assets/cool.webp"); */
+  background-color: #313131;
+  background-position: bottom bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+
+/* =====Heading=== */
+h1 {
+  font-family: 'Libre Caslon Text', serif;
+}
+
+/* ScoreboardGrid Default Settings */
+.grid {
+  list-style-type: none;
+  margin: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+/* ======GlassUI */
+.glass-effect {
+  background: #313131;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(0px);
+  border: 1px solid rgba(34, 33, 33, 0)
+}
+
+.glass-effect-light {
+  background: rgba(69, 66, 66, 0.31);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(3px);
+  border: 1px dotted rgba(44, 41, 41, 0.068);
+}
+
+
+.bg-gradient {
+  background: #f50742;
+  background: linear-gradient(to bottom right, #04e2ff 40%, #f40bfc 75%);
+}
+.gradient-logo {
+  background: #f50742;
+  background: linear-gradient(to bottom right, #04e2ff 40%, #f40bfc 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.text-gray-gradient {
+  background: #d7d7d7;
+  background: -webkit-linear-gradient(210deg, #2b0101 0%, #eeeeee 100%);
+  background: linear-gradient(210deg, #b0acac 50%, #eeeeee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
