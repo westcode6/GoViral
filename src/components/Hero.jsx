@@ -7,12 +7,12 @@ const Hero = () => {
 
   return (
     <>
-      <div className="relative glass-effect">
+      <div className="relative">
         <div
           className={`w-full md:max-w-7xl flex items-center justify-center text-center`}
         >
           <section
-            className={`flex flex-col shadow-xl justify-center items-center gap-2 px-10`}
+            className={`flex flex-col shadow-xl justify-center items-center md:gap-10 px-10`}
           >
             <div
               className={`w-full  md:max-w-1/2 flex flex-col items-center justify-center  text-center md:mx-auto rounded-xl`}
@@ -32,7 +32,7 @@ const Hero = () => {
               </p>
 
               <div className="w-full mt-6 flex items-center justify-center">
-                <button className="text-base text-white font-semibold bg-red-500 px-14 py-4 rounded-xl tracking-wide ">
+                <button className="text-base text-red-100 bg-red-400 font-semibold shadow hover:shadow-2xl transform transition  duration-300   px-14 py-4 rounded-md tracking-wide ">
                   Talk to us today
                 </button>
               </div>
