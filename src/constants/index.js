@@ -58,28 +58,28 @@ const services = [
     {
       id: 1,
       name: "Mogaji Olanrewaju",
-     image: "./dist/mog.png",
+     image: "./assets/mog.png",
      position: "Growth Strategy and MicroTargeting"
     },
 
     {
       id: 2,
       name: "Wande Victory",
-     image: "./dist/west.png",
+     image: "./assets/las.png",
      position: "Content Strategy and Localization"
     },
 
     {
       id: 3,
       name: "God'spower Paul",
-     image: "./dist/westy.png",
+     image: "./assets/west.png",
      position: "Team Lead Frontend Developer"
     },
 
     {
       id: 4,
       name: "Olayiwola Damilola",
-     image: "./dist/jjp.jpg",
+     image: "./assets/dami.png",
      position: "Growth Strategy and MicroTargeting"
     },
   ]

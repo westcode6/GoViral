@@ -32,7 +32,11 @@ const Hero = () => {
               </p>
 
               <div className="w-full mt-6 flex items-center justify-center">
-                <button className="text-base text-red-100 bg-red-400 font-semibold shadow hover:shadow-2xl transform transition  duration-300   px-14 py-4 rounded-md tracking-wide ">
+                <button 
+                onClick={() => {
+                  alert("Process building....try again")
+                }}
+                className="text-base text-red-100 bg-red-400 font-semibold shadow hover:shadow-2xl transform transition  duration-300   px-14 py-4 rounded-md tracking-wide ">
                   Talk to us today
                 </button>
               </div>
@@ -53,7 +57,7 @@ const Hero = () => {
 
 
                     <svg
-                     className="w-full md:w-[140%] h-72"
+                     className="w-96 md:w-[140%] h-72"
                       viewBox="0 0 682 295"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"

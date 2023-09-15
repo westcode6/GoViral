@@ -1,6 +1,6 @@
 import React from "react";
 export default function Navbar(){
-  const logo = "./dist/goviral_logo.png"
+  const logo = "./assets/logo.png"
   return (
     <>
         <nav className={` w-full glass-effect shadow-xl  mt-0  z-50 top-0`}>

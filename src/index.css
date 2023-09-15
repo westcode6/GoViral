@@ -28,6 +28,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Atkinson Hyperlegible', sans-serif;
+  overflow: hidden;
 }
 
 

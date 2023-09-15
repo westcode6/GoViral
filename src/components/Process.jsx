@@ -21,7 +21,7 @@ function Process() {
         <motion.div variants={fadeIn("", "", 0.1, 1)}>
           <div className="w-full md:max-w-4xl flex items-center justify-center">
             <img
-              src="./dist/assets/process.png"
+              src="./assets/process.png"
               className="w-full object-cover  h-full"
               alt="our process"
             />
