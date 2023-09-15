@@ -57,7 +57,7 @@ const Hero = () => {
 
 
                     <svg
-                     className="w-96 md:w-[140%] h-72"
+                     className="w-full md:w-[140%] h-72"
                       viewBox="0 0 682 295"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
