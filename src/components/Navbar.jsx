@@ -3,7 +3,7 @@ export default function Navbar(){
   const logo = "./assets/logo.png"
   return (
     <>
-        <nav className={` w-full glass-effect shadow-xl  mt-0  z-50 top-0`}>
+        <nav className={`w-full glass-effect shadow-xl sticky  mt-0  z-50 top-0`}>
           <div className="flex items-center justify-center">
             <a
               href="/"
